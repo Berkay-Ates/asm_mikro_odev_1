@@ -42,7 +42,7 @@ int main()
 	for (int i=0; i< nNodes; i++)
 	{
 		for(j=0;j<nNodes;j++)
-			std::cout << adj[i][j] << "\t" ;
+			std::cout << " " << adj[i][j] << " " ;
 		std::cout << std::endl;
 	}
 	for (int i = 0; i < nNodes; i++)
